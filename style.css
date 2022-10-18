@@ -6,9 +6,19 @@
 }
 
 body {
+    margin: 0;
     background-image: url(/images/pattern-background-desktop.svg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
+    background-position: center;
+}
+
+main {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 main > div {
