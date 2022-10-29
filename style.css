@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(./images/pattern-background-desktop.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
@@ -16,13 +16,14 @@ body {
 
 main {
     width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main > div {
-    margin: auto;
     max-width: 375px;
 }
 
